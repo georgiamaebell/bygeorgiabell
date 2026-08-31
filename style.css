@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f7f5f0;
+  color: #1f1f1f;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 24px 120px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0 0 18px;
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}

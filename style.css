@@ -55,3 +55,18 @@ a {
 .tagline {
   max-width: 34ch;
 }
+.photo-credit {
+  font-size: 0.75rem;
+  color: #777;
+  margin-top: -16px;
+  margin-bottom: 24px;
+}
+
+.photo-credit a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.photo-credit a:hover {
+  text-decoration: underline;
+}

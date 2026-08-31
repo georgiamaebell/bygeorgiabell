@@ -38,23 +38,44 @@
     content="https://bygeorgiabell.com/images/georgia-bell.jpg"
   >
 
-  <!-- Structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Georgia Bell",
-    "url": "https://bygeorgiabell.com/",
-    "jobTitle": "Fiction Writer",
-    "description": "American fiction writer based in Kristiansand, Norway. I write literary fiction about how shame, desire, institutions and surveillance affect selfhood and social power.",
-    "birthDate": "1994",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Kristiansand",
-      "addressCountry": "NO"
-    }
+  <!-- Structured data: identifies Georgia Bell for search engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://bygeorgiabell.com/#georgia-bell",
+  "name": "Georgia Bell",
+  "additionalName": "Mae",
+  "url": "https://bygeorgiabell.com/",
+  "image": "https://bygeorgiabell.com/images/georgia-bell.jpg",
+  "jobTitle": "Fiction Writer",
+  "nationality": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "homeLocation": {
+    "@type": "Place",
+    "name": "Kristiansand, Norway"
+  },
+  "description": "Georgia Bell is an American literary fiction writer based in Kristiansand, Norway.",
+  "disambiguatingDescription": "American literary fiction writer based in Kristiansand, Norway, born in 1994, and author of the unpublished novel PANOPTICON, longlisted for the 2026 Blue Pencil Agency First Novel Award.",
+  "knowsAbout": [
+    "Literary fiction",
+    "Shame",
+    "Desire",
+    "Institutions",
+    "Surveillance",
+    "Selfhood",
+    "Social power"
+  ],
+  "award": "PANOPTICON was longlisted for the 2026 Blue Pencil Agency First Novel Award.",
+  "subjectOf": {
+    "@type": "WebPage",
+    "name": "First Novel Award 2026 Longlist Announcement",
+    "url": "https://www.bluepencilagency.com/post/first-novel-award-2026-longlist-announcement"
   }
-  </script>
+}
+</script>
 
   <!-- v=5 forces browsers to fetch the newest CSS -->
   <link rel="stylesheet" href="style.css?v=5">

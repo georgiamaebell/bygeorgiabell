@@ -41,3 +41,18 @@ a {
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
+.site-header {
+  margin-bottom: 56px;
+}
+
+.author-photo {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.tagline {
+  max-width: 34ch;
+}
